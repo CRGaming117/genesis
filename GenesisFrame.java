@@ -2,14 +2,10 @@ package genesis;
 
 import javax.swing.JFrame;
 
-public class GenesisFrame
-{
-
-	public static void main(String[] args)
-	{
+public class GenesisFrame{
+	public static void main(String[] args) {
 		int w = 1400;
 		int h = 700;
-		
 		JFrame frame = new JFrame("Genesis");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().add(new GenesisGraphics(w,h));

@@ -1094,7 +1094,9 @@ public class GenesisGraphics extends JPanel
 			if(e.getKeyCode() == KeyEvent.VK_LEFT)
 				left = true;
 			if(e.getKeyCode() == KeyEvent.VK_RIGHT)
-				right = true;		
+				right = true;
+			if(e.getKeyCode() == KeyEvent.VK_ESCAPE)
+				System.exit(0);		
 		}
 		public void keyReleased(KeyEvent e)
 		{
