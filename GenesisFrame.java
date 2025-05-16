@@ -7,7 +7,7 @@ public class GenesisFrame
 
 	public static void main(String[] args)
 	{
-		int w = 1280;
+		int w = 1400;
 		int h = 700;
 		
 		JFrame frame = new JFrame("Genesis");

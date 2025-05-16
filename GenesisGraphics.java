@@ -573,7 +573,7 @@ public class GenesisGraphics extends JPanel
 		public void actionPerformed(ActionEvent e)
 		{
 			update();
-			System.out.println(walls.size());
+			//System.out.println(walls.size());
 			wallCollider(room);
 		}
 	}
